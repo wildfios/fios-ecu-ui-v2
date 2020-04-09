@@ -14,5 +14,15 @@
     "postinstall": "yarn electron-rebuild"
   },
   "license": "MIT",
-  "dependencies": {}
+  "dependencies": {
+    "@material-ui/core": "^4.9.9",
+    "@material-ui/icons": "^4.9.1",
+    "bootstrap": "^4.4.1",
+    "formik": "^2.1.4",
+    "install": "^0.13.0",
+    "npm": "^6.14.4",
+    "react-bootstrap": "^1.0.0",
+    "serialport": "^8.0.7",
+    "yup": "^0.28.3"
+  }
 }
