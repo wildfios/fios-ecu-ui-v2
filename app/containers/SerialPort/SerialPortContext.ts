@@ -1,11 +1,11 @@
 import { createContext } from "react";
 
 export interface SerialPortContextI {
-    onDataRcvd: () => void;
+    open: (port: string)=>void;
     portList: Array<{}>;
 }
 
 export const SerialPortContext = createContext({
-    onDataRcvd: () => undefined,
+    open: (port: string)=>undefined,
     portList: [],
 } as SerialPortContextI);
