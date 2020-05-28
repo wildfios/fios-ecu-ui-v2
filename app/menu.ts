@@ -154,9 +154,9 @@ export default class MenuBuilder {
       label: 'Help',
       submenu: [
         {
-          label: 'Learn More',
+          label: 'Show console',
           click() {
-            shell.openExternal('https://electronjs.org');
+            this.mainWindow.webContents.toggleDevTools();
           }
         },
         {
